@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OTP Verification</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container" id="OTPContainer">
+    <h1>OTP Verification</h1>
+    <div class="form-group">
+      <label for="otp">Enter OTP:</label>
+      <input type="text" id="otp" name="otp" required>
+    </div>
+    
+    <div class="OTPFormWrapper">
+      <form id="OTPForm">
+       <!-- <button type="Verify" id="submitBtn">Submit</button> -->
+      </form>
+      <div class="loginImageWrapper">
+        <img src="bbk1.jpeg" alt="Your image description" id="loginImage">
+      </div>
+    </div>
+    <!-- Add a link or button to navigate to the main page -->
+    <button onclick="window.location.href = 'health.html'">Submit</button>
+  </div>
+  <script src="otp.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

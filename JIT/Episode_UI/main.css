@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #00008B;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: skyblue;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.app-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+  object-fit: cover;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  margin-right: 30px;
+  margin-left: 20px;
+  color: black;
+}
+
+.blue-button, .bl, .pro {
+  color: black;
+}
+
+nav button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease;
+}
+
+nav button:hover {
+  background-color: skyblue;
+}
+
+.dropdown-btn {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: skyblue;
+  color: skyblue;
+  display: none;
+  flex-direction: column;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px skyblue;
+}
+
+.dropdown-menu a {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 0.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-menu a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.content-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.placeholder-image {
+  max-width: 120%;
+  height: auto;
+  border-radius: 1px;
+  margin-left: -100px;
+  margin-right:-100px ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  background-color:#00008B;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 800px;
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.about-us h2, .about-us h3 {
+  color: white;
+}
+
+.about-us p {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.team-member {
+  margin-bottom: 20px;
+}
+
+.team-member strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  width: 15px; 
+  height: 15px; 
+  border-radius: 25%;
+}
+
+.link-custom-color {
+  color: white; /* Change to your desired color */
+}
+

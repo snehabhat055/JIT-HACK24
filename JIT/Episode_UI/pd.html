@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container" id="loginContainer">
+    <h1>Login</h1>
+    
+    <div class="loginFormWrapper">
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label> 
+          <input type="email" id="email" name="email" required>
+        </div>
+        <!--<button type="submit" id="submitBtn">Submit</button>-->
+      </form>
+      <div class="loginImageWrapper">
+        <img src="bbk1.jpeg" alt="Your image description" id="loginImage">
+      </div>
+      <button onclick="window.location.href = 'otp.html'">Submit</button>
+    </div>
+    
+  <script src="script.js"></script>
+  <script src="otp.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
+
